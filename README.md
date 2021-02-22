@@ -14,12 +14,12 @@
 [pull]
 	rebase = true
 [filter "lfs"]
-	clean = git-lfs clean -- %f
-	smudge = git-lfs smudge -- %f
-	process = git-lfs filter-process
+	clean 	 = git-lfs clean -- %f
+	smudge 	 = git-lfs smudge -- %f
+	process  = git-lfs filter-process
 	required = true
 [gpg]
-	program = C:\\Program Files (x86)\\GnuPG\\bin\\gpg.exe
+	program  = C:\\Program Files (x86)\\GnuPG\\bin\\gpg.exe
 [credential "helperselector"]
 	selected = store
 ```
