@@ -11,6 +11,8 @@
 	unstage = "reset HEAD --"
 	s	= "status"
 	f	= "fetch"
+	pl	= "pull"
+	ps	= "push"
 [pull]
 	rebase = true
 [filter "lfs"]
